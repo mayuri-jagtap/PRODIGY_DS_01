@@ -49,11 +49,10 @@ The datasets are downloaded from the World Bank Open Data Portal:
 
 📌Folder Structure:
 
-India\_Population\_Trends\_BarChart
-├── API\_SP.POP.TOTL\_DS2\_en\_csv\_v2\_76034.csv
-├── API\_SP.POP.TOTL.MA.ZS\_DS2\_en\_csv\_v2\_7765.csv
-├── API\_SP.POP.TOTL.FE.ZS\_DS2\_en\_csv\_v2\_7756.csv
-├── India\_Population\_Trends\_BarChart.ipynb
+--API\_SP.POP.TOTL\_DS2\_en\_csv\_v2\_76034.csv
+--API\_SP.POP.TOTL.MA.ZS\_DS2\_en\_csv\_v2\_7765.csv
+--API\_SP.POP.TOTL.FE.ZS\_DS2\_en\_csv\_v2\_7756.csv
+--India\_Population\_Trends\_BarChart.ipynb
 
 📌Learning Points:
 
