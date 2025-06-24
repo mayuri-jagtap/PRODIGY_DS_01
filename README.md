@@ -1,18 +1,18 @@
-#  India Population Trends (1960–2023)
+#  India Gender-wise Population Distribution (1960–2023)
 
-This project visualizes the total population trends of India from 1960 to 2023 using a bar chart, based on authentic data from the World Bank. It also provides the gender-wise distribution (male and female) using additional population percentage datasets.
+This project visualizes India's gender-wise population distribution over time (1960–2023) using a stacked bar chart. It leverages population and gender percentage datasets from the World Bank to calculate and represent the actual male and female population each year.
 
 
 
 ##  Objective
 
-To create a clear and informative visualization of India’s population growth over time, and understand gender distribution based on percentage data.
+To analyze and visualize how India's male and female populations have evolved from 1960 to 2023 by combining total population and gender percentage data.
 
 
 
-## Dataset Sources
+##  Dataset Sources
 
-The datasets are downloaded from the World Bank Open Data Portal:
+The following datasets are obtained from the World Bank Open Data Portal:
 
 - **Total Population**  
   **File:** `API_SP.POP.TOTL_DS2_en_csv_v2_76034.csv`  
@@ -26,51 +26,40 @@ The datasets are downloaded from the World Bank Open Data Portal:
   **File:** `API_SP.POP.TOTL.FE.ZS_DS2_en_csv_v2_7756.csv`  
   **Indicator:** *Population, female (% of total) (SP.POP.TOTL.FE.ZS)*
 
->  *Note: Only these 3 main CSV files are used. Metadata files have been excluded.*
+> **NOTE** Only these 3 main CSV files are used. Metadata CSVs are excluded.
 
 
 
 ##  Tools Used
 
 - **Python**
-- **Pandas** – Data loading and manipulation
-- **Matplotlib** – Data visualization
+- **Pandas** – For data loading and cleaning
+- **Matplotlib** – For stacked bar chart visualization
 
 
 
-##  Visualizations
+##  Visualization
 
-- **India Total Population (1960–2023):**  
-  A bar chart showing population change over time.
-
-- **(Optional) 2022 Gender Distribution in India:**  
-  A bar chart showing male vs female population counts for the year 2022 based on percentage data.
+- **India Gender-wise Population Distribution (1960–2023):**  
+  A stacked bar chart showing the male and female population each year from 1960 to 2023.
 
 
 
 ##  How to Run
 
-1. Ensure Python is installed on your system.
-2. Place the 3 CSV files in the same directory as the notebook.
-3. Open and run the notebook:  
+1. Make sure Python is installed.
+2. Download and place the 3 datasets in the same directory as the notebook.
+3. Open and run:  
    `India_Population_Trends_BarChart.ipynb`
-
-
-
-##  Output Sample
-
-You can add a screenshot of the final visualization here.
 
 
 
 ##  Folder Structure
 
-India_Population_Trends_BarChart/
-│
-├── API_SP.POP.TOTL_DS2_en_csv_v2_76034.csv
-├── API_SP.POP.TOTL.MA.ZS_DS2_en_csv_v2_7765.csv
-├── API_SP.POP.TOTL.FE.ZS_DS2_en_csv_v2_7756.csv
-└── India_Population_Trends_BarChart.ipynb
+ -API_SP.POP.TOTL_DS2_en_csv_v2_76034.csv
+ -API_SP.POP.TOTL.MA.ZS_DS2_en_csv_v2_7765.csv
+ -API_SP.POP.TOTL.FE.ZS_DS2_en_csv_v2_7756.csv
+ -India_Population_Trends_BarChart.ipynb
 
 
 
@@ -81,4 +70,3 @@ India_Population_Trends_BarChart/
 - How to filter country-specific data for focused analysis
 - How to create **Matplotlib** bar charts for temporal data
 - How to calculate male and female population from percentage indicators
-
